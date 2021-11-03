@@ -10,6 +10,8 @@ Untuk dataset itu sendiri berupa gambar dedaunan, kali ini kita menggunakan 2 la
 - Dimensi 1600 X 1200 pixel
 - Jumlah perlabel 50 gambar
 
+Setelah mengkoleksi data dan dirasa sudah cukup, kemudian kami melakukan adjustment pada gambar dengan meningkatkan kontras supaya gambar tampak lebih jelas. Untuk meningkatkan kontrasnya cukup melalui program dengan menggunakan package opencv dari phython. Dengan menggunakan beberapa fungsi dari package dan mengatur levelnya maka semua gambar akan secara otomatis ditingkatkan kontrasnya.
+
 ## Contribution
 
 - M Andre Cahyanto [201910370311236]
