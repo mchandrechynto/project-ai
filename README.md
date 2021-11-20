@@ -12,7 +12,7 @@ Untuk dataset itu sendiri berupa gambar dedaunan, kali ini kita menggunakan 2 la
 
 Setelah mengkoleksi data dan dirasa sudah cukup, kemudian kami melakukan adjustment pada gambar dengan meningkatkan kontras supaya gambar tampak lebih jelas. Untuk meningkatkan kontrasnya cukup melalui program dengan menggunakan package opencv dari python. Dengan menggunakan beberapa fungsi dari package dan mengatur levelnya maka semua gambar akan secara otomatis ditingkatkan kontrasnya.
 
-Kemudian, tahap selanjutnya membuat sebuah program dari bahasa python, yaitu sebuah sistem yang digunakan untuk membandingkan atau  mengkomparasi objek dengan dataset yang telah disediakan. Program ini dibuat dengan menggunakan metode Artificial Neural Network(ANN).
+Kemudian, tahap selanjutnya mencoba membuat sebuah program dari bahasa python, yaitu sebuah sistem yang digunakan untuk membandingkan atau  mengkomparasi objek dengan dataset yang telah disediakan. Program ini dibuat dengan menggunakan 2 metode yaitu Artificial Neural Network(ANN) dan Convolutional Neural Network(CNN). Dan setelah mengimplementasikan kedua metode tersebut, dapat disimpulkan bahwa metode CNN lebih baik karena memiliki tingkat akurasi lebih tinggi daripada metode ANN.
 
 ## Contribution
 
