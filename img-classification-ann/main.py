@@ -26,7 +26,7 @@ for label in label_list:
 # print(np.array(data).shape)
 
 
-""" DATA PREPROSESSING """
+""" DATA PREPROCESSING """
 # ubah type data dari list menjadi array
 # ubah nilai dari tiap pixel menjadi range [0..1]
 data = np.array(data, dtype='float') / 255.0

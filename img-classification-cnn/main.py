@@ -26,7 +26,7 @@ for label in label_list:
 # print(np.array(data).shape)
 
 
-""" DATA PREPROSESSING """
+""" DATA PREPROCESSING """
 # ubah type data dari list menjadi array
 # ubah nilai dari tiap pixel menjadi range [0..1]
 data = np.array(data, dtype='float') / 255.0
@@ -45,7 +45,7 @@ x_train, x_test, y_train, y_test = train_test_split(data, labels, test_size=0.2,
 # print('Ukuran data test =', x_test.shape)
 
 
-""" BUILD ANN ARCHITECTURE """
+""" BUILD CNN ARCHITECTURE """
 model = Sequential()
 # Extracted Feature Layer
 model.add(InputLayer(input_shape=[32, 32, 3]))
